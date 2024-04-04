@@ -1,0 +1,234 @@
+/* ======================== Tablet Layout ===================== */
+@media (max-width:770px) {
+    #menu_bar{
+        display: initial;
+    }
+    
+    #close_btn{
+        display: initial;
+        font-size: 1.6rem;
+        color: #fff;
+        padding: 30px 0 20px 20px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        position: sticky;
+    }
+
+    header .logo {
+        margin-right: auto;
+    }
+
+    header .navbar ul{
+        position: absolute;
+        top: 0;
+        right: -220px;
+        width: 220px;
+        height: 100vh;
+        background: rgba(0,0,0,0.6);
+        backdrop-filter: blur(4.5px);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        transition: all .30s ease-in;
+    }
+
+    header .getCourseBtn button {
+        margin-right: 20px;
+    }
+
+    header .navbar ul.sidebar{
+        right: 0;
+    }
+
+    header .navbar ul li{
+        padding: 20px 0 20px 40px;
+        margin-left: 0;
+    }
+
+    header .logo img {
+        width: 160px;
+    }
+
+    .section1 .conatiner1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section1 .conatiner1 .main_text{
+        text-align: center;
+    }
+
+    .section1 .conatiner1 .main_text p{
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    .section1 .mainImg img{
+        margin: 3vw 0;
+    }
+
+    .section2 .main_area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section2 .main_img img {
+        margin: 0 auto;
+    }
+
+    .section2 .text_area {
+        border-left: none;
+        padding-left: 0px;
+    }
+
+    .section2 .text_area p {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 2vw;
+    }
+
+    .section3 .feedback_heading p {
+        width: 100%;
+    }
+    /* ====== about section ========= */
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about_text {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .about_img img {
+        margin-top: 40px;
+    }
+
+    /* policy section */
+    .policy_text h1 {
+        margin-top: 16vw;
+    }
+    /* policy section */
+
+    /* contact */
+    .contact .contact_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact .contact_form form {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .contact_img {
+        width: 100%;
+    }
+}
+/* ======================== Tablet Layout ===================== */
+
+/* mobile */
+@media (max-width: 420px) {
+
+    #menu_bar {
+        font-size: 27px;
+    }
+
+    header .navbar ul {
+        height: 200vh;
+    }
+
+    header .logo img {
+        width: 100px;
+    }
+
+    header .getCourseBtn button {
+        transition: none;
+    }
+
+    .section1 .main_text h1 {
+        font-size: 25px;
+        margin-top: 12vw;
+    }
+
+    .section1 .main_text p {
+        width: 100%;
+    }
+
+    .section1 .mainImg img {
+        width: 100%;
+    }
+
+    .section2 .main_img img {
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 12vw;
+    }
+
+    .wrapper .footer_logo {
+        padding: 0 0px;
+    }
+
+    .footer_logo img {
+        width: 128px;
+    }
+}
+
+@media (max-width: 365px) {
+
+    .section1 .main_text h1 {
+        font-size: 23px;
+        color: #f2f2f2;
+    }
+    
+    .section2 {
+        margin-top: 20vw;
+    }
+
+    .section3 .profile img {
+        border-radius: 50%;
+        height: auto;
+    }
+}
+
+@media (max-width: 435px) {
+    header .logo img {
+        width: 132px;
+    }
+
+    .section1 .main_text h1 {
+        font-size: 27px;
+    }
+
+    .section1 .mainImg img {
+        width: 100%;
+    }
+
+    .about_text h1 {
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 362px) {
+    header .logo img {
+        width: 97px;
+    }
+    
+}
